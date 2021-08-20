@@ -1,8 +1,8 @@
 from django.contrib import admin
-from Invent_auto import models
+from .models import Products, Retailers, Orders
 
 # Register your models here.
 
-admin.register(models.Products)
-admin.register(models.Retailers)
-admin.register(models.Orders)
+admin.register(Products)
+admin.register(Retailers)
+admin.register(Orders)
